@@ -20,7 +20,7 @@ This will boot up a Flask server (e.g., localhost:5000) that serves:
 
 # Example
 
-![example](/docs/example.png)
+![example](/docs/example.png?raw=true)
 
 # Installation
 
