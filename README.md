@@ -9,6 +9,19 @@ I built <b>nba-api-chatbot</b> to:
 * build a <b>chatbot</b> using <b>named entity recognition</b> built using TensorFlow
 * explore <b>async/await</b> in JavaScript
 
+# Table of Contents
+
+| Path             | Description                                                    |
+|------------------|----------------------------------------------------------------|
+| build_model      | Jupyter Notebooks that build the NER model and test loading it |
+| docs             | assets for documentation                                       |
+| generate_data    | code to generate the dataset used to train the NER model       |
+| nba_api_chatbot  | Flask app for chatbot                                          |
+| .gitignore       | .gitignore                                                     |
+| README.md        | README.md                                                      |
+| requirements.txt | required Python dependencies                                   |
+| run.py           | run Flask app                                                  |
+
 # Quickstart
 
 Run with the following:
