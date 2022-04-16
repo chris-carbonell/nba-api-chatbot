@@ -1,10 +1,10 @@
 # Overview
 
-<b>nba-stats-chatbot</b> provides a ChatBot interface to <b>NBA.com's API</b>
+<b>nba-api-chatbot</b> provides a ChatBot interface to <b>NBA.com's API</b>
 
 # Why?
 
-I built <b>ff-chatbot</b> to:
+I built <b>nba-api-chatbot</b> to:
 * learn the basics of <b>Flask</b>
 * build a <b>chatbot</b> based on <b>named entity recognition</b> using TensorFlow
 * explore <b>async/await</b> in JavaScript
