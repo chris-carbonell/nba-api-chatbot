@@ -1,0 +1,23 @@
+# working
+archive/
+backup/
+testing/
+
+# data
+nba_api_chatbot/data/questions.csv
+nba_api_chatbot/data/questions.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+venv-nba-api-chatbot/

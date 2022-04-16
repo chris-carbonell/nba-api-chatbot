@@ -1,0 +1,23 @@
+# data
+nba-api==1.1.11
+numpy==1.22.3
+pandas==1.4.1
+
+# text
+python-Levenshtein==0.12.2
+
+# ml
+scikit-learn==1.0.2
+tensorflow==2.8.0
+
+# viz
+matplotlib==3.5.1
+
+# flask
+Flask==2.1.1
+Flask-Cors==3.0.10
+
+# jupyterlab
+jupyterlab==3.3.2
+ipykernel==6.10.0
+ipywidgets==7.7.0
