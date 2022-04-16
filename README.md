@@ -20,7 +20,7 @@ This will boot up a Flask server (e.g., localhost:5000) that serves:
 
 # Example
 
-![example](/docs/example.png?raw=true)
+![example](https://github.com/chris-carbonell/nba-api-chatbot/blob/main/docs/example.PNG)
 
 # Installation
 
