@@ -6,7 +6,7 @@
 
 I built <b>nba-api-chatbot</b> to:
 * learn the basics of <b>Flask</b>
-* build a <b>chatbot</b> based on <b>named entity recognition</b> using TensorFlow
+* build a <b>chatbot</b> using <b>named entity recognition</b> built using TensorFlow
 * explore <b>async/await</b> in JavaScript
 
 # Quickstart
@@ -21,6 +21,19 @@ This will boot up a Flask server (e.g., localhost:5000) that serves:
 # Example
 
 ![example](https://github.com/chris-carbonell/nba-api-chatbot/blob/main/docs/example.PNG)
+
+# Named Entity Recognition
+
+I trained a <b>named entity recognition (NER)<b> model built using TensorFlow to identify essential entities in questions like:<br>
+"How many <b>points</b> did <b>Michael Jordan</b> have?"
+
+The NER model basically tokenizes the question and tags each token with an NER label:
+* tokenize:<br>
+<code>["How", "many", "points", "did", "Michael", "Jordan", "have?"]</code>
+* NER tag:<br>
+<code>["O", "O", "B-STAT", "O", "B-PLAYER", "I-PLAYER", "O"]</code>
+
+From there, I extract the stat ("points") and the player ("Michael Jordan"). Those inputs are scrubbed to convert the requested stat ("points") into the appropriate column name ("PTS") and, similarly, get the player's unique ID used in the API. With these two scrubbed inputs, a request is made to the API for the data and a total of that stat is summed across that player's career.
 
 # Installation
 
